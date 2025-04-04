@@ -96,3 +96,25 @@ body {
     font-weight: bold;
     border-radius: 5px;
   }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 20px;
+    background-color: #ec7a27;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .scroll-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    background: white;
+    color: #ec7a27;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
