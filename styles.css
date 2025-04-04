@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: 'Georgia', serif;
+    font-size: 48px;
+    color: #730d1c;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: #d66411;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #e9721a;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form {
+    background-color: #f3e5d9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .signup-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    margin-bottom: 15px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .signup-form button {
+    background-color: #e9721a;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .social {
+    background-color: #f3e5d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .insta-icon {
+    font-size: 28px;
+  }
+  
+  .eggs-banner {
+    background-color: #ec7a27;
+    color: white;
+    padding: 40px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
