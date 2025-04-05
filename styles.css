@@ -19,9 +19,9 @@
     text-align: center;
   }
   
-  /* Logo: Reduced size */
+  /* Logo: Slightly increased size */
   .logo {
-    width: 120px; /* Reduced from 150px */
+    width: 140px; /* increased from 120px */
     margin: 20px auto;
     display: block;
   }
