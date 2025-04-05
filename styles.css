@@ -13,10 +13,10 @@ body {
   }
   
   .logo {
-    font-family: 'Georgia', serif;
-    font-size: 48px;
-    color: #730d1c;
-    margin-bottom: 10px;
+    width: 150px;
+    max-width: 80%;
+    margin: 20px auto;
+    display: block;
   }
   
   .tagline {
