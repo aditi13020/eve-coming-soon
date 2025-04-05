@@ -2,14 +2,155 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eve – Because Plans Need People</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@1,400;0,200;0,600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo-img {
+      width: 160px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .tagline {
+      font-family: 'Titillium Web', sans-serif;
+      font-style: italic;
+      font-size: 32px;
+      color: #FA7400;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+      color: #FA7400;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .signup-form {
+      background-color: #F5E6D4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .signup-form label,
+    .signup-form input,
+    .signup-form .checkbox,
+    .signup-form button {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    .signup-form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    .signup-form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background: transparent;
+      margin-bottom: 20px;
+    }
+
+    .checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .checkbox input {
+      margin-right: 10px;
+    }
+
+    .signup-form button {
+      background-color: #FA7400;
+      color: #FFFFFF;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 18px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+    }
+
+    .social {
+      background-color: #F5E6D4;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .social a img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px 0;
+      scroll-snap-type: x mandatory;
+    }
+
+    .scroll-card {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      background: #FA7400;
+      color: #FFFFFF;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 200;
+      font-size: 32px;
+      text-transform: uppercase;
+      line-height: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      min-width: 280px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <img src="logo.png" alt="Eve logo" class="logo" />
+    <img src="logo.png" alt="Eve Logo" class="logo-img" />
     <h2 class="tagline">Because Plans Need People</h2>
     <p class="description">
       For every plan, there’s someone who wants in – right when you do
@@ -28,18 +169,17 @@
     </form>
 
     <div class="social">
-      <p>Follow us on Instagram</p>
-      <span class="insta-icon">📷</span>
+      <span>Follow us on Instagram</span>
+      <a href="https://instagram.com/youraccount" target="_blank">
+        <img src="Instagram.png" alt="Instagram" />
+      </a>
     </div>
 
     <div class="scroll-container">
-        <div class="scroll-card">Ran out of eggs</div>
-        <div class="scroll-card">Craving sushi</div>
-        <div class="scroll-card">Going for a walk</div>
-        <div class="scroll-card">Looking for a chess partner</div>
-        <div class="scroll-card">Trying a new café</div>
-        <div class="scroll-card">Need help moving a couch</div>
-      </div>
+      <div class="scroll-card">Find someone who also just ran out of eggs</div>
+      <div class="scroll-card">Study grind session at the library. Open to anyone with deadlines.</div>
+      <div class="scroll-card">Stretch. Walk. Breathe. With someone. Now</div>
+    </div>
   </div>
 </body>
 </html>
