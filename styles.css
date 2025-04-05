@@ -30,7 +30,7 @@
   .tagline {
     font-family: 'Titillium Web', sans-serif;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 28px;
     color: #FA7400;
     margin-bottom: 10px;
@@ -39,7 +39,7 @@
   /* Description styling: Titillium Web Semibold, size 25, color #FA7400 */
   .description {
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     color: #FA7400;
     margin-bottom: 30px;
@@ -75,7 +75,7 @@
   .checkbox {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
   
   .checkbox input {
@@ -120,7 +120,7 @@
     display: flex;
     overflow-x: auto;
     gap: 16px;
-    padding: 50px 0;
+    padding: 20px 0;
     scroll-snap-type: x mandatory;
   }
   
